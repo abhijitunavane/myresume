@@ -2,3 +2,9 @@
   max-width: 100%;
   overflow-x: auto;
 }
+
+@media (max-width:986px) {
+  #engineering_link {
+    display: none;
+  }
+}
