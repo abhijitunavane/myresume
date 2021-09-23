@@ -288,8 +288,10 @@
             <div>
               <iframe
                 src="https://drive.google.com/file/d/18CweBRzE-vKiqtjWM-U9cYups1xJbAGt/preview"
-                width="600"
-                height="600"
+                class="w-100"
+                width="500"
+                height="500"
+                style="pointer-events: none"
                 allow="autoplay"
               ></iframe>
             </div>
@@ -329,12 +331,14 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body m-auto">
-            <div>
+          <div class="modal-body">
+            <div class="m-auto">
               <iframe
                 src="https://drive.google.com/file/d/1Bo8YHcVRZXVKjb5ZFkDMzMv56V09JEes/preview"
-                width="600"
-                height="600"
+                class="w-100"
+                width="500"
+                height="500"
+                style="pointer-events: none"
                 allow="autoplay"
               ></iframe>
             </div>
@@ -366,9 +370,6 @@
       var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl);
       });
-
-      //var navbar = document.getElementById("navscroll");
-      //console.log(navbar);
 
       window.onscroll = function () {
         myFunction();
